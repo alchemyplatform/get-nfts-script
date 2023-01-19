@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "alchemy-sdk": "^2.3.0"
+  },
+  "name": "get-nfts-script",
+  "description": "JavaScript script to get all NFTs owned by a specified address",
+  "version": "1.0.0",
+  "main": "get-nfts.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alchemyplatform/get-nfts-script.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alchemyplatform/get-nfts-script/issues"
+  },
+  "homepage": "https://github.com/alchemyplatform/get-nfts-script#readme",
+  "type": "module"
+}
