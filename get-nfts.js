@@ -23,7 +23,7 @@ const main = async () => {
 
     let i = 1;
 
-    // Print out the contract name and token id 
+    // Print out the contract name and token id (print "nft" for full object)
     for (let nft of nftList) {
         console.log(`${i}. ${nft.contract.name} #${nft.tokenId}`);
         i++;
