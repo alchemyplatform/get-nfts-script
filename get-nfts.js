@@ -10,10 +10,24 @@ const alchemy = new Alchemy(config);
 
 
 const main = async () => {
-  // Get all NFTs
-  const nfts = await alchemy.nft.getNftsForOwner("vitalik.eth"); // Replace with your address
-  // Print NFTs
-  console.log(nfts);
+    const address = "0xshah.eth"; // Replace with your address
+
+    // Get all NFTs
+    const nfts = await alchemy.nft.getNftsForOwner(address); 
+
+    // Parse output
+    const numNfts = nfts["totalCount"];
+    const nftList = nfts["ownedNfts"];
+
+    console.log(`Total NFTs owned by ${address}: ${numNfts} \n`);
+
+    let i = 1;
+
+    // Print out the contract name and token id 
+    for (let nft of nftList) {
+        console.log(`${i}. ${nft.contract.name} #${nft.tokenId}`);
+        i++;
+    }
 };
 
 // Execute the code
