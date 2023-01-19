@@ -7,11 +7,13 @@ JavaScript script to get all NFTs owned by a specified address
 
 `git clone https://github.com/alchemyplatform/get-nfts-script.git`
 
-2. Install node and NPM if you haven't already
+*NOTE: you may need to install xcode on your mac to use the `git` command*
+
+2. [optional] Install node and NPM if you haven't already
 
 `npm install -g npm`
 
-3. In the project folder, run:
+3. `cd` into the project folder then run:
 
 `npm init -y`
 
