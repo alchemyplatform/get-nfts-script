@@ -22,4 +22,4 @@ JavaScript script to get all NFTs owned by a specified address
 
 `node get-nfts.js <your-api-key>`
 
-5. The code currently prints out the NFTs (contract names and tokenIds) owned by `0xshah.eth` feel free to modify it to replace it with your address or print out any other information about the NFT! 
+The code currently prints out the NFTs (contract names and tokenIds) owned by `0xshah.eth` feel free to modify it to replace it with your address or print out any other information about the NFT! 
