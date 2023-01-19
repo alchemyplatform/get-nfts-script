@@ -8,10 +8,10 @@ const config = {
 };
 const alchemy = new Alchemy(config);
 
-// Fetch all the NFTs owned by elanhalpern.eth
+
 const main = async () => {
   // Get all NFTs
-  const nfts = await alchemy.nft.getNftsForOwner("vitalik.eth");
+  const nfts = await alchemy.nft.getNftsForOwner("vitalik.eth"); // Replace with your address
   // Print NFTs
   console.log(nfts);
 };
